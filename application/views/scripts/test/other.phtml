@@ -1,0 +1,27 @@
+<!--<?php echo __FILE__ ?>-->
+
+<div id="doc">
+    <div id="bd">
+        <div id="view-content">
+            <p>View script for controller <b>Test</b> and script/action name <b>other</b></p>
+        </div>
+    </div><!-- #bd -->
+</div><!-- #doc -->
+
+<!--END <?php echo __FILE__ ?>-->
+
+<?php
+$this->headTitle('Domain cms.local');
+$this->usingYahooBaseGridCss();
+$this->jQuery()->onLoadCaptureStart();
+?>
+//respond to events
+window.addEventListener('message',function(event) {
+  //if(event.origin !== 'http://cms.local') return;
+  console.log('message received:  ' + event.data,event);
+  event.source.postMessage('holla back youngin!',event.origin);
+},false);
+<?php
+$this->jQuery()->onLoadCaptureEnd();
+?>
+

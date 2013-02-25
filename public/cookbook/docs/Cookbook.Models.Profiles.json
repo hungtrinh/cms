@@ -1,0 +1,1 @@
+C({"name": "Cookbook.Models.Profiles", "type": "class", "comment": "<p>Wraps backend profiles services.  </p>", "parents": ["index"], "inherits": "jQuery.Model", "src": "cookbook/models/profiles.js", "children": ["Cookbook.Models.Profiles.static", "Cookbook.Models.Profiles.prototype"]})

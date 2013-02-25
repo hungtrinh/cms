@@ -1,0 +1,41 @@
+<?php
+if($this->success):
+?>
+<script type="text/javascript">
+alert('add record success');
+</script>
+<?php
+endif;
+?>
+<!--<?php echo __FILE__ ?>-->
+<div id="doc">
+    <div id="bd">
+        <div id="form-add-client">
+            <?= $this->form ?>
+        </div><!-- #form-add-client -->
+
+    </div><!-- #bd -->
+</div><!-- #doc -->	
+<!--END <?php echo __FILE__ ?>-->
+
+<?php
+$this->headTitle('Add Client');
+?>
+
+<?php $this->jQuery()->setVersion('1.5.2')->setUiVersion('1.8.6')->uiEnable(); ?>
+<?php $this->jQuery()->onLoadCaptureStart(); ?>
+
+
+<?php $this->jQuery()->onLoadCaptureEnd() ?>
+
+
+<?php $this->headStyle()->captureStart() ?>
+/*a:link,
+a:visited {color: #0398CA;}
+span#zf-name{color: #91BE3F;}
+
+#doc{border:1px solid;}
+
+#bd {margin: 1em;border: 1px solid gray;}*/
+<?php
+$this->headStyle()->captureEnd()?>

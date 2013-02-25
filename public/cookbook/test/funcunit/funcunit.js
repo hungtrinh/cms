@@ -1,0 +1,2 @@
+steal("funcunit", 'cookbook/recipe/create/create_test.js', 'cookbook/recipe/list/list_test.js', 'cookbook/profiles/create/create_test.js', 'cookbook/profiles/list/list_test.js', 'cookbook/profiles/create/create_test.js', 'cookbook/profiles/list/list_test.js')
+ .then("./cookbook_test.js");

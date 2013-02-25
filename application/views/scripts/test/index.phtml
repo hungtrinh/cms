@@ -1,0 +1,38 @@
+<!--<?php echo __FILE__ ?>-->
+
+<div id="doc">
+    <div id="bd">
+        <div id="view-content">
+            <p>View script for controller <b>Test</b> and script/action name <b>index</b></p>
+        </div><!-- #view-content -->
+    </div><!-- #bd -->
+</div><!-- #doc -->
+
+<!--END <?php echo __FILE__ ?>-->
+
+
+<?php
+$this->headTitle('Domain cms.local');
+$this->usingYahooBaseGridCss();
+$this->jQuery()->onLoadCaptureStart();
+?>
+//create popup window
+var domain = 'http://acms.local';
+var myPopup = window.open(domain + '/test/other','myWindow');
+
+//periodical message sender
+setInterval(function(){
+  var message = 'Hello!  The time is: ' + (new Date().getTime());
+  console.log('cms.local:  sending message:  ' + message);
+  myPopup.postMessage(message,domain); //send the message and target URI
+},6000);
+
+//listen to holla back
+window.addEventListener('message',function(event) {
+  if(event.origin !== 'http://acms.local') return;
+  console.log('received response:  ',event.data);
+},false);
+
+<?php
+$this->jQuery()->onLoadCaptureEnd();
+?>

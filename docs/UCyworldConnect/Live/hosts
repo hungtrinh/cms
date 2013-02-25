@@ -1,0 +1,20 @@
+118.70.131.26 vpn.emc2.vn
+222.255.9.236 docs.mimo.vn
+123.30.49.151 bugs.cyworld.vn
+127.0.0.1 hungtd-laptop hungtd guitar
+127.0.0.1 bbcnews.local
+127.0.0.1 localhost 
+127.0.0.1 quickstart.local 
+127.0.0.1 magento.local	
+127.0.0.1 promotion.local	
+127.0.0.1 hungtd-desktop
+127.0.0.1 myblog.local	
+127.0.0.1 aafvn.local
+
+222.255.9.242 cyadmin.vn.cyworld.com
+
+127.0.0.1 mimostats.local cms.local
+123.30.49.151 bugs.cyworld.vn
+
+192.168.1.108 memcached.mimo.vn
+192.168.1.100 memcached.cyworld.com

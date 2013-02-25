@@ -1,0 +1,28 @@
+<!-- <?php echo __FILE__ ?> -->
+
+<?php echo $this->doctype() . PHP_EOL ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <?php
+        echo $this->headMeta();
+        echo $this->headLink();
+        echo $this->headStyle();
+        echo $this->headTitle();
+        ?>
+    </head>
+    <body>
+        <!-- layout.content segment-->
+        <?php echo $this->layout()->content ?>
+        <!-- END layout.content segment-->
+
+        <div id="javascript">
+            <?php
+            echo $this->jQuery(),"\n\n";
+            echo $this->headScript(),"\n\n";
+            echo $this->inlineScript(),"\n\n";
+            ?>
+        </div><!-- #javascript -->
+    </body>
+</html>
+
+<!-- END: <?php echo __FILE__ ?> -->

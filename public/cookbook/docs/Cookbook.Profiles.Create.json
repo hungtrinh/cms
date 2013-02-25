@@ -1,0 +1,1 @@
+C({"name": "Cookbook.Profiles.Create", "type": "class", "comment": "<p>Creates profiles</p>", "parents": ["index"], "inherits": "jQuery.Controller", "src": "cookbook/profiles/create/create.js", "children": ["Cookbook.Profiles.Create.prototype"]})

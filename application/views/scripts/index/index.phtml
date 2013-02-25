@@ -1,0 +1,39 @@
+<!--<?php echo __FILE__ ?>-->
+<div id="doc">
+    <div id="bd">
+        <div id="test">
+            <h1 id="qunit-header">All.js Test</h1>  
+            <h2 id="qunit-banner"></h2>  
+            <div id="qunit-testrunner-toolbar"></div>  
+            <h2 id="qunit-userAgent"></h2>  
+            <ol id="qunit-tests"></ol>  
+        </div><!-- #welcome -->
+    </div><!-- #bd -->
+
+    <div id="fb-root"></div>
+</div><!-- #doc -->	
+<!--END <?php echo __FILE__ ?>-->
+
+<?php
+$this->headTitle('CyApi Test');
+$this->usingYahooBaseGridCss();
+$this->headLink()->appendStylesheet($this->baseUrl('js/jquery/qunit/qunit.css'));
+//$this->headLink()->appendStylesheet($this->baseUrl('css/default/index.css'));
+
+$this->jQuery()
+        ->setVersion('1.6.1')
+        ->setLocalPath($this->baseUrl('lib/jquery/1.6.1/jquery.min.js'))
+        ->addJavascriptFile('http://fbapi.cyworld.vn/all.js')
+        ->addJavascriptFile($this->baseUrl('js/jquery/jquery.cookie.js'))
+        ->addJavascriptFile($this->baseUrl('js/Oauth2.js'))
+        ->addJavascriptFile($this->baseUrl('js/UrlQuery.js'))
+        ->addJavascriptFile($this->baseUrl('js/jquery/qunit/qunit.js'))
+        ->addJavascriptFile($this->baseUrl('js/FapiExample.js'))
+        ->addJavascriptFile($this->baseUrl('js/FqlExample.js'))
+        ->addJavascriptFile($this->baseUrl('js/FuiExample.js'))
+        ->addJavascriptFile($this->baseUrl('js/App.js'))
+        ->onLoadCaptureStart();
+?>
+App.run();
+<?php $this->jQuery()->onLoadCaptureEnd() ?>
+

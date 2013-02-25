@@ -1,0 +1,34 @@
+
+<!--<?php echo __FILE__ ?>-->
+<div id="doc">
+    <div id="bd">
+		<br /><br /><center>View script for controller <b>News</b> and script/action name <b>index</b></center>
+		<div id="fb-root"></div>
+		<script src="http://connect.facebook.net/en_US/all.js#appId=158528480895633&amp;xfbml=1"></script><fb:like href="http://www.vnexpress.net/" send="true" layout="button_count" width="450" show_faces="true" font="arial"></fb:like>
+		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="http://acms.local" font="lucida grande" colorscheme="dark"></fb:send>
+    </div><!-- #bd -->
+</div><!-- #doc -->	
+<!--END <?php echo __FILE__ ?>-->
+
+
+<?php
+$this->headTitle('Facebook PHP SDK');
+$this->usingYahooBaseGridCss();
+$this->headMeta()
+		->appendName('og:title',"Toi thich")
+		->appendName('og:type',"activity")
+		->appendName('og:url',"http://acms.local/")
+		->appendName('og:image',"")
+		->appendName('og:site_name',"acms")
+		->appendName('fb:admins',"100000997475175");
+
+$this->jQuery()
+        ->setVersion('1.6.1')
+//        ->addJavascriptFile('http://connect.facebook.net/en_US/all.js')
+//        ->addJavascriptFile($this->baseUrl('js/jquery/jquery.cookie.js'))
+        ->onLoadCaptureStart();
+?>
+
+<?php 
+$this->jQuery()->onLoadCaptureEnd();
+?>

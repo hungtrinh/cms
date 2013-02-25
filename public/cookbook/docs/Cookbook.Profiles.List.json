@@ -1,0 +1,1 @@
+C({"name": "Cookbook.Profiles.List", "type": "class", "comment": "<p>Lists profiles and lets you destroy them.</p>", "parents": ["index"], "inherits": "jQuery.Controller", "src": "cookbook/profiles/list/list.js", "children": ["Cookbook.Profiles.List.static", "Cookbook.Profiles.List.prototype"]})

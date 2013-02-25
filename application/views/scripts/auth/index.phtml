@@ -1,0 +1,23 @@
+<div id="doc">
+    <h1>Login</h1>
+    <?php echo $this->form; ?>
+</div><!--#doc-->
+
+<?php
+$this->headTitle('Login');
+$this->headLink()->appendStylesheet('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/themes/base/jquery-ui.css');
+$this->jQuery()->setVersion('1.5.2')->setUiVersion('1.8.6')->uiEnable();
+$this->jQuery()->addJavascriptFile('http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.min.js');
+?>
+
+<?php $this->headStyle()->captureStart() ?>
+#doc{
+	border: 1px solid #ccc;
+}
+<?php $this->headStyle()->captureEnd() ?>
+
+<?php $this->jQuery()->onLoadCaptureStart(); ?>
+$(':submit').button();
+$(':input:first').focus();
+<?php $this->jQuery()->onLoadCaptureEnd() ?>
+

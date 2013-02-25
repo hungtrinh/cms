@@ -1,0 +1,11 @@
+#dev
+118.70.131.26 vpn.emc2.vn
+192.168.1.100 html.vn.cyworld.com
+192.168.1.100 bugs.vn.cyworld.com
+
+127.0.0.1 localhost 
+127.0.0.1 fbapi.dev
+127.0.0.1 cms.local
+127.0.0.1 albumstore.local
+127.0.0.1 mimostats.local
+192.168.1.100 fbapi.cyworld.vn cyworld.vn www.cyworld.vn m.cyworld.vn

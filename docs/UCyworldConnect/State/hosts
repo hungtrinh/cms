@@ -1,0 +1,36 @@
+127.0.0.1 mimostats.local
+#dev
+118.70.131.26 vpn.emc2.vn
+222.255.9.236 docs.mimo.vn
+192.168.1.100 html.vn.cyworld.com
+192.168.1.100 bugs.vn.cyworld.com
+
+222.255.9.242 quamot.com essance.quanmot.com
+222.255.9.242 www.essance.cyworld.vn essance.cyworld.vn aquamoisture.cyworld.vn www.aquamoisture.cyworld.vn quanmot.com
+222.255.9.242 orion.mimo.vn
+222.255.9.242 www.cyworld.vn school.cyworld.vn
+222.255.9.242 vn.cyworld.com
+222.255.9.242 club.cyworld.vn 
+222.255.9.242 cyadmin.vn.cyworld.com
+222.255.9.242 img.vn.cyworld.com
+222.255.9.242 img.cyworld.vn
+222.255.9.239 stat.vn.cyworld.com
+222.255.9.242 www.kine.vn kine.cyworld.vn
+222.255.9.242 www.pictura.vn pictura.cyworld.vn
+
+#222.255.9.242 fs1.pictura.vn fs1.pictura.cyworld.vn
+#222.255.9.242 fs1.cyworld.vn
+#222.255.9.242 fs2.cyworld.vn
+#222.255.9.242 fs2.kine.vn fs2.kine.cyworld.vn
+222.255.9.242 cvrt.kine.vn cvrt.cyworld.vn
+
+222.255.9.242 www.microblog.vn
+222.255.9.242 www.microblogcss.vn
+222.255.9.242 www.microblogcss.vn
+222.255.9.242 fbapi.cyworld.vn graph.cyworld.vn
+
+123.30.49.151 www.mimo.vn  m.mimo.vn stats.emc2.vn bugs.cyworld.vn
+
+127.0.0.1 localhost hungtd cms.local mimostats.localo
+192.168.1.108 memcached.mimo.vn
+192.168.1.100 memcached.cyworld.com

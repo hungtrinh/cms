@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Cookbook.Profiles.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Cookbook.Profiles.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='profiles'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('cookbook/profiles/create','cookbook/fixtures',function(){
+				
+				$('#create').cookbook_profiles_create();
+				Cookbook.Models.Profiles.bind('created', function(ev, profiles){
+					$('<div>').html("<h3>"+profiles.name+"</h3><p>"+profiles.description+"</p><p>"+profiles.email+"</p>").appendTo( $('#profiles') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

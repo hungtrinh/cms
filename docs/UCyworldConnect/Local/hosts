@@ -1,0 +1,64 @@
+118.70.131.26 vpn.emc2.vn 
+192.168.1.108 memcached.mimo.vn
+192.168.1.100 memcached.cyworld.com
+127.0.1.1 mimostats.local
+192.168.1.108 stats.emc2.vn
+#dev
+222.255.9.236 docs.mimo.vn
+123.30.49.151 bugs.cyworld.vn
+192.168.1.100 html.vn.cyworld.com
+192.168.1.100 bugs.vn.cyworld.com
+
+192.168.1.100 www.essance.cyworld.vn essance.cyworld.vn aquamoisture.cyworld.vn www.aquamoisture.cyworld.vn quanmot.com essance.quanmot.com
+
+192.168.1.100 vn.cyworld.com
+192.168.1.100 club.vn.cyworld.com
+192.168.1.100 fs1.vn.cyworld.com
+192.168.1.100 fs1.cyworld.vn
+192.168.1.100 img.vn.cyworld.com
+192.168.1.100 game.cyworld.vn
+
+192.168.1.100 www.cyworld.vn 	m.cyworld.vn	m.cyworld-lam.vn	mobile-cyworld.vn	school.cyworld.vn	 club.cyworld.vn
+
+192.168.1.100 fs1.pictura.vn
+192.168.1.100 fs1.pictura.cyworld.vn
+192.168.1.100 cyadmin.vn.cyworld.com
+192.168.1.100 cpadmin.vn.cyworld.com
+192.168.1.100 img.cyworld.vn 
+192.168.1.100 www.kine.vn 
+192.168.1.100 kine.cyworld.vn 
+192.168.1.100 www.pictura.vn 
+192.168.1.100 pictura.cyworld.vn  chungmotnha.com	soundnation.vn
+192.168.1.108 m.mimo.vn fs1.mimo.vn www.m.mimo.vn www.fs2.mimo.vn	orion.mimo.vn url.mimo.vn	www.mimo.vn 
+192.168.1.108 www.mimo.vn url.mimo.vn
+
+192.168.1.100 cvrt.kine.vn 
+192.168.1.100 cvrt.cyworld.vn 
+192.168.1.100 cvrt1.kine.vn 
+192.168.1.100 fs2.cyworld.vn 
+192.168.1.100 fs2.kine.cyworld.vn
+
+192.168.1.100 fbapi.cyworld.vn graph.cyworld.vn api.cyworld.vn
+
+222.255.9.239 stat.vn.cyworld.com
+
+192.168.1.100 quamot.com essance.quanmot.com modules.cyworld.vn	fbapi.cyworld.vn
+192.168.1.100 gamedamcuoi.com
+
+127.0.0.1 hungtd-laptop guitar hungtd
+127.0.0.1 localhost 
+127.0.0.1 quickstart.local 
+127.0.0.1 magento.local	
+127.0.0.1 promotion.local
+127.0.0.1 myblog.local	
+127.0.0.1 hungtd-desktop
+127.0.0.1 bbcnews.local
+127.0.0.1 aafvn.local
+127.0.0.1 partuza shindig testpartuza
+127.0.0.1 fbapi.dev
+127.0.0.1 cms.local jobeet.local	quickbook.local
+
+
+
+
+
