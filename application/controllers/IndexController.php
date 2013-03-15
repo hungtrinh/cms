@@ -39,8 +39,12 @@ class IndexController extends Zend_Controller_Action {
     }
 
     public function testAction() {
-        $restaurant = new Tmi_Spider_Urbanspoon_Restaurant();
-        Zend_Debug::dump($restaurant->storeHtmlRawData(), 'Urbanspoon Restaurant=');
+			require_once 'A.php';
+			$a = new A();
+			$b = new B();
+			//echo phpinfo();
+		  Zend_Debug::dump($a, 'A=');
+			Zend_Debug::dump($b, 'B=');
         exit;
     }
     

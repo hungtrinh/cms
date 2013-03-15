@@ -22,7 +22,7 @@ App.run = function(){
     }
 	FapiExample.run();
 	FqlExample.run();
-	FuiExample.run();
+//	FuiExample.run();
 }
 
 /**
