@@ -16,4 +16,5 @@ fe80::1%lo0     localhost
 192.168.1.108 memcached.mimo.vn
 192.168.1.100 memcached.cyworld.com
 
+123.30.49.151 stats.emc2.vn
 127.0.0.1 mimostats.local cms.local
